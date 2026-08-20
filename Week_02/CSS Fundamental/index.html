@@ -1,0 +1,53 @@
+<!--1. CSS: Cascading Style Sheets -->
+<!--2. CSS Syntax : selector { property: value; } -->
+<!--3. CSS Selector
+        1. Element Selector
+        2. Class Selector
+        3. ID Selector
+        4. Universal Selector -->
+<!--4. Box Model-->
+<!--5. Cascading -->
+<!--6. Specifically -->
+<!--7. CSS Units
+        px
+        %
+        rem
+        vh
+        vw -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fundamentals</title>
+    <style>
+        p {
+            color: blue;
+        }
+        .subName {
+            color: red;
+        }
+        #sub {
+            color: green;
+        }
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .box-model {
+            width: 200px;
+            height: 20px;
+            color: white;
+            background-color: rgb(109, 116, 118);
+            padding: 20px;
+            border: 1px solid black;
+            margin: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+     <p id="sub" class="subName">CSS</p>
+     <div class="box-model">Box Model Demo</div>
+</body>
+</html>
